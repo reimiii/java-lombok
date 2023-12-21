@@ -22,4 +22,12 @@ public class LoginTest {
         Assertions.assertEquals("secret", login.getPassword());
 
     }
+
+
+    @Test
+    void testToString() {
+        Login login = Login.create("mee", "pass");
+
+        System.out.println(login);
+    }
 }
