@@ -5,11 +5,9 @@ import lombok.*;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
-@EqualsAndHashCode(exclude = {
-        "name"
-})
-public class Customer {
+@EqualsAndHashCode
+@ToString
+public class Employee {
 
     private String id;
 
